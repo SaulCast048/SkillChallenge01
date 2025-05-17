@@ -8,7 +8,7 @@ public class Main{
         Pelicula pelicula3 = new Pelicula(140, "Dia de la independencia", true);
         Pelicula pelicula4 = new Pelicula(4128, "El imperio contraataca");
         Pelicula pelicula5 = new Pelicula(1111, "La princesa y el sapo", true);
-
+        System.out.println("Gestor de peliculas");
 
         GestorPelicula gp = new GestorPelicula();
         gp.agregarPelicula(pelicula1);
