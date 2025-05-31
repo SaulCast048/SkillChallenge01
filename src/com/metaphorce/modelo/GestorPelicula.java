@@ -73,7 +73,7 @@ public class GestorPelicula {
 
     public Pelicula buscarPorNombre(String nombre){
         for(Pelicula pelicula : coleccionPeliculas) {
-            if (pelicula.getNombre().equals(nombre)) {
+            if (nombre.equals(pelicula.getNombre())) {
                 System.out.println();
                 return(pelicula);
             }
